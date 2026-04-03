@@ -1,0 +1,11 @@
+[task]
+name = "broken_inventory_service"
+description = "Debug and fix a broken FastAPI inventory microservice with cascading failures"
+version = "1.0.0"
+author = "bespoke_candidate"
+
+[environment]
+dockerfile = "environment/Dockerfile"
+
+[environment.runtime]
+python = "3.12"
